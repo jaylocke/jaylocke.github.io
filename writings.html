@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JayLocke blog</title>
+        <meta name="Author" Content="jaylocke">
+        <meta name="keywords"  Content="ui,web,app,html5,css3">
+        <meta name="description" content="This a blog about web site design, ui design, html5+css3+js">
+        <meta name="Robots" content="all" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="plug-in/html5-boilerplate/css/normalize.css">
+        <link rel="stylesheet" href="plug-in/html5-boilerplate/css/main.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/web.css">
+        <!--[if IE]>
+        <script type="text/javascript">
+            var console = { log: function() {} };
+        </script>
+        <![endif]-->
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="plug-in/html5-boilerplate/js/plugins.js"></script>
+        <script src="plug-in/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+    <!--[if lt IE 9 ]>
+    <div class='Chromeframe'>
+        <div class='Container'>
+            <p>
+                You are using an <strong>outdated</strong> browser.
+                Please <a target="_blank" href="http://browsehappy.com/">upgrade your browser</a>to improve your experience.
+            </p>
+        </div>
+    </div>
+    <![endif]-->
+        <header id="header-nav" class="sticky">
+            <h1 class="logo float-left">
+                <a href="index.html" title="Jay locke">
+                    <span class="hidden">Jay Locke</span>
+                    <img src="images/logo.png"/>
+                </a>
+            </h1>
+            <nav class="float-right" id="main-menu">
+                <ul class="menu-list">
+                    <li>
+                        <a href="index.html" title="Home">Home</a>
+                    </li>
+                    <li class="popup-toggle-status">
+                        <a class="popup-toggle popup-toggle-contacts" data-popup-id="about-me" href="#about-me" title="About Me">About Me</a>
+                    </li>
+                    <li>
+                        <a class="share sina" href="" title="sina微博"></a>
+                    </li>
+                    <li>
+                        <a class="share qq" href="" title="腾讯微博"></a>
+                    </li>
+                </ul>
+                <a class="attention popup-toggle popup-toggle-contacts" data-popup-id="contact-me" href="#contact-me">
+                    <span>Contact Me</span>
+                </a>
+            </nav>
+        </header>
+        <div class="white-out"></div>
+        <section id="T-article">
+            <div class="con">
+                <h1>Technical articles</h1>
+                <section class="article-list">
+                    <h2>Writings</h2>
+                    <span>技术写作。</span>
+                    <ul>
+                        <li><a target="_blank" href="http://targetkiller.net/jquerywithryu.html"><i class="link-other">【转】</i>跟着街霸玩jQuery</a><br>
+                            通过这个带交互的教程你将会对jQuery有一个基本的了解同时可以在你的项目中用上它。
+                        </li>
+                        <li><a target="_blank" href="http://www.alloyteam.com/2012/10/css3-draw-qq-logo/"><i class="link-other">【转】</i>使用CSS3绘制腾讯QQ的企鹅Logo</a><br>
+                            让你更进一步的接触CSS3。
+                        </li>
+                        <li><a target="_blank" href="http://www.wedphoto.cn/sm/jq/3338.html"><i class="link-other">【转】</i>PS光影处理深度提升</a><br>
+                            巧妙使用photoshop来创建逼真的阴影与灯光的方法。
+                        </li>
+                        <li><a target="_blank" href="http://www.ruanyifeng.com/blog/2010/04/css_speech_bubbles.html"><i class="link-other">【转】</i>制作CSS气泡框</a><br>
+                            气泡状文本框，是一种很生动的网页设计手段。
+                        </li>
+                        <li><a target="_blank" href="archives/how-am-i-driving"><i class="link-other">【转】</i>使用Modernizr探测HTML5/CSS3新特性</a><br>
+                            如何更好地处理不支持HTML5/CSS3特性的旧版本浏览器问题。
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+        <footer>
+            <nav class="web-nav">
+                <a class="" href="index.html" title="Home">Home</a>
+                <a class="" href="web.html" title="Web Design">Web Design</a>
+                <a class="" href="app.html" title="App Design">App Design</a>
+                <a class="" href="#" title="Writing">Writing</a>
+                <a class="" href="notes.html" title="Notes">Notes</a>
+            </nav>
+            <p>© 2014<i> 陈文杰—JayLocke</i> All Rights Reserved.</p>
+        </footer>
+
+
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+      <!--  <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>-->
+    <div class="global-popup global-popup-reversed popup-contact " id="about-me">
+        <div class="popup-header">
+            <a class="close" href="javascript:void(0);">×</a>
+        </div>
+        <div class="popup-wrapper me">
+            <div class="popup-wrapper-inset">
+                <div class="popup-content">
+                    <h2>About Me<span>关于我</span></h2>
+                </div>
+                <div class="self">
+                    <p>陈文杰-JayLocke</p>
+                    <p><strong>生于</strong>1987年11月,闽南海边的一个小村庄.<br/>
+                    天蝎座,专研于自己的喜欢的事情,从中追寻成就感.
+                    </p>
+                    <p><strong>安静</strong>不爱说话,喜欢听歌.<br/>
+                    讨厌虚伪,喜欢真诚以待.<br/>
+                    </p>
+                    <p><strong> 有爱设计</strong>行走于设计和前端之间。<br/>
+                        爱生活,爱模仿,更爱创造.<br/>
+                    </p>
+                    <p>“设计,前端”:一个需要天马行空的想象力创造力,一个需要科学的严谨的逻辑;<br/>
+                    看是矛盾,但对我来说却能从中体会到无穷的乐趣.</p>
+                    <p style="text-align: right"> By：JayLocke</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="global-popup global-popup-reversed popup-contact" id="contact-me">
+        <div class="popup-header">
+            <a class="close" href="javascript:void(0);">×</a>
+        </div>
+        <div class="popup-wrapper">
+            <div class="popup-wrapper-inset">
+                <div class="popup-content">
+                    <h2>Contact Me<span>联系我</span></h2>
+                </div>
+                <div class="self contact">
+                    <p><strong>Email:</strong>jaylocke@126.com &nbsp;&nbsp;&nbsp;&nbsp;85739230@qq.com<br/></p>
+                    <p><strong>Tel:</strong>15280102073<br/></p>
+                    <p><strong> QQ:</strong>85739230<br/></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+<script type="text/javascript" src="js/action.js"></script>
