@@ -1,2 +1,0 @@
-jaylocke.github.io
-==================
